@@ -1,26 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 .about-container {
+    font-family: 'Roboto', sans-serif;
     padding: 2rem;
     max-width: 1000px;
     margin: auto;
     font-family: Arial, sans-serif;
-  }
-  
-  .about-section {
+}
+
+.about-section {
     margin-bottom: 2rem;
-  }
-  
-  .about-title {
+}
+
+.about-title {
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 1rem;
-  }
-  
-  .about-text {
+}
+
+.about-text {
     font-size: 1.1rem;
     margin-bottom: 0.8rem;
-  }
-  
-  .about-button {
+}
+
+.about-button {
     display: inline-block;
     margin-top: 1rem;
     padding: 0.6rem 1.2rem;
@@ -29,44 +32,43 @@
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.2s ease-in-out;
-  }
-  
-  .about-button:hover {
+}
+
+.about-button:hover {
     background-color: #1e40af;
-  }
-  
-  .section-title {
+}
+
+.section-title {
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 1rem;
-  }
-  
-  .experience-card {
+}
+
+.experience-card {
     background-color: #f3f4f6;
     padding: 1rem;
     margin-bottom: 1rem;
     border-radius: 8px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-  }
-  
-  .experience-role {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.experience-role {
     font-weight: bold;
-  }
-  
-  .experience-time {
+}
+
+.experience-time {
     font-size: 0.9rem;
     color: #6b7280;
     margin-bottom: 0.5rem;
-  }
-  
-  .skills-grid {
+}
+
+.skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 1rem;
-  }
-  
-  .skill-category {
+}
+
+.skill-category {
     font-weight: 600;
     margin-bottom: 0.5rem;
-  }
-  
+}
