@@ -1,0 +1,135 @@
+.contact-container {
+  font-family: 'Roboto', sans-serif;
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.contact-section {
+  margin-bottom: 2rem;
+}
+
+.contact-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #1f2937;
+}
+
+.contact-text {
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;
+  line-height: 1.6;
+  color: #4b5563;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2rem;
+}
+
+.form-section {
+  margin-bottom: 2rem;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #1f2937;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #374151;
+}
+
+.form-input,
+.form-textarea {
+  padding: 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border-color 0.2s ease-in-out;
+  outline: none;
+  font-family: inherit;
+}
+
+.form-textarea {
+  resize: vertical;
+}
+
+.submit-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background-color 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #1e40af;
+}
+
+.submit-button.submitted {
+  background-color: #10b981;
+  cursor: default;
+}
+
+.info-section {
+  margin-bottom: 2rem;
+}
+
+.contact-card {
+  background-color: #f3f4f6;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.contact-icon {
+  color: #2563eb;
+  margin-right: 1rem;
+  flex-shrink: 0;
+}
+
+.contact-label {
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin-bottom: 0.25rem;
+}
+
+.contact-value {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1f2937;
+}
